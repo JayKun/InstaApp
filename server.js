@@ -9,7 +9,7 @@ var ig = require('instagram-node').instagram();
 ig.use({
 	// get access token here: http://instagram.pixelunion.net
 
-	access_token: '1937780430.1677ed0.5b2133020cf64e979778e2ab7c90d98b'
+	access_token: require('token.txt')
 });	
 
 
